@@ -2,5 +2,8 @@
   "name": "@donotuse/mathlib",
   "version": "0.0.1",
   "main": "./src/index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "test": "jest add.test.js"
+  }
 }
