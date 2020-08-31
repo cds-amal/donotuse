@@ -1,12 +1,20 @@
 {
-  "name": "@donotuse/calculator",
-  "version": "0.0.1",
-  "main": "./src/index.js",
-  "license": "MIT",
-  "scripts": {
-    "test": "jest index.test.js"
-  },
-  "dependencies": {
-    "@donotuse/mathlib": "^0.0.1"
-  }
+    "name": "@donotuse/calculator",
+    "version": "0.0.1",
+    "author": {
+        "name": "Amal Sudama",
+        "email": "cds.sudama@gmail.com"
+    },
+    "main": "./src/index.js",
+    "license": "MIT",
+    "scripts": {
+        "test": "jest index.test.js"
+    },
+    "dependencies": {
+        "@donotuse/mathlib": "^0.0.1"
+    },
+    "publishConfig": {
+        "access": "public"
+    },
+    "repository": "https://github.com/cds-amal/donotuse"
 }

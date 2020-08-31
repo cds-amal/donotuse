@@ -1,9 +1,17 @@
 {
-  "name": "@donotuse/mathlib",
-  "version": "0.0.1",
-  "main": "./src/index.js",
-  "license": "MIT",
-  "scripts": {
-    "test": "jest add.test.js"
-  }
+    "name": "@donotuse/mathlib",
+    "version": "0.0.1",
+    "author": {
+        "name": "Amal Sudama",
+        "email": "cds.sudama@gmail.com"
+    },
+    "main": "./src/index.js",
+    "license": "MIT",
+    "scripts": {
+        "test": "jest add.test.js"
+    },
+    "publishConfig": {
+        "access": "public"
+    },
+    "repository": "https://github.com/cds-amal/donotuse"
 }
