@@ -8,10 +8,23 @@
     "packages/*"
   ],
   "scripts": {
-    "verdaccio": "docker-compose up"
-
+    "verdaccio": "docker-compose up",
+    "test": "echo TESTING complete!"
+  },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "[[ -n $HUSKY_BYPASS ]] || commitlint -V -E HUSKY_GIT_PARAMS"
+    }
   },
   "devDependencies": {
+    "@commitlint/cli": "^8.1.0",
+    "@commitlint/config-conventional": "^8.1.0",
+    "husky": "^4.2.5",
     "lerna": "^3.22.1"
   }
 }
