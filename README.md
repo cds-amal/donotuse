@@ -38,3 +38,13 @@ add conventional commits
     --no-push \
     --force-publish
   ```
+
+- [ ] force another version and publish
+  ```
+  GH_TOKEN=bbxxxx
+  HUSKY_BYPASS=true \
+  lerna publish \
+    --conventional-commits -m 'chore(release): publish' \
+    --force-publish \
+    --registry http://localhost:4873
+  ```
