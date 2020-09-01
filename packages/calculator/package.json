@@ -1,6 +1,6 @@
 {
     "name": "@donotuse/calculator",
-    "version": "0.1.0",
+    "version": "0.2.0",
     "author": {
         "name": "Amal Sudama",
         "email": "cds.sudama@gmail.com"
@@ -11,7 +11,7 @@
         "test": "jest index.test.js"
     },
     "dependencies": {
-        "@donotuse/mathlib": "^0.1.0"
+        "@donotuse/mathlib": "^0.2.0"
     },
     "publishConfig": {
         "access": "public"
