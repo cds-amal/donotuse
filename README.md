@@ -29,3 +29,12 @@ add conventional commits
     --conventional-commits -m 'chore(release): publish' \
     --registry http://localhost:4873
   ```
+
+- [ ] force version, don't push
+  ```
+  lerna version minor \
+    --conventional-commits \
+    --message "chore(release): publish %s" \
+    --no-push \
+    --force-publish
+  ```
